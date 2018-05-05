@@ -52,7 +52,9 @@
 			.text-grey{
 				color:#999999;
 			}
-
+			.text-blue {
+				color: #00A1E9;
+			}
 			.text-black{
 				color:black;
 			}
@@ -60,7 +62,35 @@
 			.text-white{
 				color:white;
 			}
-
+			.text-red {
+				color: #fc361d;
+			}
+			.search-box {
+			    position: absolute;
+			    top: 0;
+			    right: 15px;
+			    line-height: 34px;
+			    width: 40px;
+			    height: 40px;
+			    color: #666;
+			    background: transparent;
+			    border: transparent;
+			}
+			.width-100 {
+				width: 100%;
+			}
+			.ptt-table {
+   				border: 1px solid #cccccc;
+			}
+			th {
+				background-color: #2899d2;
+				color: #fff;
+				height: 45px;
+			}
+			td {
+				border-top: 1px solid #cccccc!important;
+				height: 45px;
+			}
 
 
 			/*-------------- NAVBAR  ---------------*/
@@ -184,9 +214,16 @@
 
 
 
+
 /*-------------------------*/
 /*------  END Structure -------*/
 /*-------------------------*/
+
+
+
+
+				/*========== REPORT ==================*/
+
 
 
 
