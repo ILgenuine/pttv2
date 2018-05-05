@@ -43,7 +43,6 @@
 					border-radius: 4px 4px 4px 4px !important;
 			}
 
-
 			.icon-darkblue{
 				color:#2E345C;
 				font-size: 20px;
@@ -55,6 +54,11 @@
 			.text-blue {
 				color: #00A1E9;
 			}
+
+			.text-darkblue{
+				color:#020091;
+			}
+
 			.text-black{
 				color:black;
 			}
@@ -62,9 +66,11 @@
 			.text-white{
 				color:white;
 			}
+
 			.text-red {
 				color: #fc361d;
 			}
+
 			.search-box {
 			    position: absolute;
 			    top: 0;
@@ -76,20 +82,76 @@
 			    background: transparent;
 			    border: transparent;
 			}
+
 			.width-100 {
 				width: 100%;
 			}
+
 			.ptt-table {
    				border: 1px solid #cccccc;
 			}
+
 			th {
 				background-color: #2899d2;
 				color: #fff;
 				height: 45px;
 			}
+
 			td {
 				border-top: 1px solid #cccccc!important;
 				height: 45px;
+			}
+
+		 	.grey-box{
+				background-color: #f6fbff;
+				padding:10px;
+			}
+
+			.blue-box{
+				background-color:#dcf2fd;
+				padding:10px;
+			}
+
+			.navigation{
+				font-weight: 700;
+			}
+
+			.navigation:hover{
+				text-decoration: none;
+			}
+
+			.btn-main{
+				color:white;
+				background-color:#00A1E9;
+			}
+
+			.btn-ghost{
+				color:#00A1E9;
+				background-color:white;
+				border-color:#00A1E9;
+			}
+
+			.btn-main:hover{
+				color:white;
+				background-color:#2E345C;
+				border-color:#2E345C;
+			}
+
+			.btn-ghost:hover{
+				color:white;
+				background-color:#00A1E9;
+				border-color:#00A1E9;
+			}
+
+			.plus-btn{
+				background-color:transparent;
+				padding:0;
+			}
+
+			.plus-btn:hover{
+				background-color:transparent;
+				padding:0;
+				color:white;
 			}
 
 
