@@ -87,8 +87,8 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">400,212 B.</td>
                 <td class="text-center text-grey">02/01/2561</td>
-                <td class="text-center"><u><a href="#" class=" text-grey">ดูรายล่ะเอียด</a></u></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
 
               <tr>
@@ -100,8 +100,8 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">98,011 B.</td>
                 <td class="text-center text-grey">06/01/2561</td>
-                <td class="text-center text-grey"></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
 
               <tr>
@@ -113,8 +113,8 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">400,212 B.</td>
                 <td class="text-center text-grey">02/01/2561</td>
-                <td class="text-center text-grey"></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
 
               <tr>
@@ -126,8 +126,8 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">98,011 B.</td>
                 <td class="text-center text-grey">06/01/2561</td>
-                <td class="text-center text-grey"></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
 
               <tr>
@@ -139,8 +139,8 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">400,212 B.</td>
                 <td class="text-center text-grey">02/01/2561</td>
-                <td class="text-center text-grey"></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
 
               <tr>
@@ -152,8 +152,8 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">400,212 B.</td>
                 <td class="text-center text-grey">02/01/2561</td>
-                <td class="text-center text-grey"></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
 
               <tr>
@@ -165,8 +165,8 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">98,011 B.</td>
                 <td class="text-center text-grey">06/01/2561</td>
-                <td class="text-center text-grey"></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
 
               <tr>
@@ -178,8 +178,8 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">400,212 B.</td>
                 <td class="text-center text-grey">02/01/2561</td>
-                <td class="text-center text-grey"></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
 
               <tr>
@@ -191,8 +191,8 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">98,011 B.</td>
                 <td class="text-center text-grey">06/01/2561</td>
-                <td class="text-center text-grey"></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
 
               <tr>
@@ -204,12 +204,29 @@
                 <td class="text-center text-grey">ชิ้น</td>
                 <td class="text-center text-grey">400,212 B.</td>
                 <td class="text-center text-grey">02/01/2561</td>
-                <td class="text-center text-grey"></td>
-                <td class="text-center"><a class="glyphicon glyphicon-download-alt inbox-icon-share"></a></td>
+                <td class="text-center text-grey"><u><a href="#" class="text-grey">ดูรายล่ะเอียด</a></u></td>
+                <td class="text-center"><a href="#" class="flaticon-download-button text-grey"></a></td>
               </tr>
             </tbody>
           </table>
         </div>
+        <div class="col-sm-12 py-4">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link bnt-pagination-previous text-blue" href="#" tabindex="-1"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+              </li>
+              <li class="page-item"><a class="page-link text-blue" href="#">1</a></li>
+              <li class="page-item"><a class="page-link text-blue" href="#">2</a></li>
+              <li class="page-item"><a class="page-link text-blue" href="#">3</a></li>
+              <li class="page-item"><a class="page-link text-blue" href="#">4</a></li>
+              <li class="page-item"><a class="page-link text-blue" href="#">5</a></li>
+              <li class="page-item">
+                <a class="page-link bnt-pagination-next text-blue" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </div> 
       </div> <!-- row -->
     </div> <!-- Container -->
 

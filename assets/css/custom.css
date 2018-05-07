@@ -176,6 +176,22 @@
 				cursor: pointer;
 			}
 
+			.bnt-pagination-previous {
+				border: 1px solid transparent!important;
+	    		margin-right: 15px;
+	    		padding-top: 11px;
+			}
+			.bnt-pagination-next {
+				border: 1px solid transparent!important;
+	    		margin-left: 15px;
+	    		padding-top: 11px;
+			}
+			.page-link {
+			    border-radius: 5px;
+			}
+			.page-link:hover {
+			    background-color: #dcf3fe;
+			}
 
 
 			/*-------------- NAVBAR  ---------------*/
@@ -353,7 +369,6 @@
 		font-weight: 700px;
 		color:white;
 	}
-
 	.banner-text-frame-2{
 		text-align: center;
 		height:40px;
@@ -375,4 +390,22 @@
 
 /*-------------------------*/
 /*----  END DASHBOARD -----*/
+/*-------------------------*/
+
+
+
+
+/*-------------------------*/
+/*--------  REPORT -------*/
+/*-------------------------*/
+
+	.report-text-grey {
+		color: #666666;
+	}
+	.report-text-grey {
+		color:#2E345C;
+	}
+
+/*-------------------------*/
+/*-----  END REPORT -------*/
 /*-------------------------*/
