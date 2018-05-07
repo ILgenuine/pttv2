@@ -51,9 +51,11 @@
 
                 <div class="col-sm-12 my-3">
 
-                  <button class="btn plus-btn">
-                    <i class="flaticon-plus-symbol-in-a-rounded-black-square icon-darkblue"></i>
-                  </button>
+                  <button class="button plus-btn"><i class="fa fa-plus"></i></button>
+
+                  <button class="button quantity-plus"><i class="fa fa-plus"></i></button>
+
+                  <button class="button quantity-minus"><i class="fa fa-minus"></i></button>
 
 
 
@@ -82,6 +84,10 @@
                     </div>
 
                     <div class="col-sm-12">
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col-sm-12 mt-5">
                       <button type="button" class="btn btn-main">Primary</button>
                       <button type="button" class="btn btn-ghost">Ghost</button>
 

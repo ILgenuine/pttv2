@@ -144,15 +144,38 @@
 			}
 
 			.plus-btn{
-				background-color:transparent;
+				color:white;
+				background-color:#020091;;
 				padding:0;
+				height:40px;
+				width:40px;
+				border-radius: 10px;
+				border: none;
+				cursor: pointer;
 			}
 
-			.plus-btn:hover{
-				background-color:transparent;
-				padding:0;
+			.quantity-plus{
+				font-size: 12px;
 				color:white;
+				background-color:#00A1E9;
+				height:27px;
+				width:27px;
+				border-radius: 25px;
+				border: none;
+				cursor: pointer;
 			}
+
+			.quantity-minus{
+				font-size: 12px;
+				color:white;
+				background-color:#00A1E9;
+				height:27px;
+				width:27px;
+				border-radius: 25px;
+				border: none;
+				cursor: pointer;
+			}
+
 
 
 			/*-------------- NAVBAR  ---------------*/
@@ -282,68 +305,74 @@
 /*-------------------------*/
 
 
+/*-------------------------*/
+/*------  DASHBOARD -------*/
+/*-------------------------*/
 
 
-				/*========== REPORT ==================*/
+	.banner{
+		position:relative;
+	}
 
+	.banner-title{
+		padding-left:40% ;
+		padding-right:40%;
+		position:absolute;
+		width:100%;
+		top:30%;
+	}
 
+	.banner-text-frame{
+		text-align: center;
+		height:40px;
+		overflow: hidden;
+	}
 
+	.banner-title-text{
+		font-family:'kanitmedium';
+		font-size: 35px;
+		font-weight: 700px;
+		color:white;
+	}
 
+	.banner-title-hr{
+		border-top:4px solid #E70112;
+		width:50%;
+	}
 
+	.banner-title-2{
+		padding-left:20% ;
+		padding-right:20%;
+		position:absolute;
+		width:100%;
+		top:50%;
+	}
 
+	.banner-title-text-2{
+		font-size: 27px;
+		font-weight: 700px;
+		color:white;
+	}
 
-@media (max-width: 1024px) {
-	/*-------------------------*/
-	/*------  Structure 1024 -------*/
-	/*-------------------------*/
+	.banner-text-frame-2{
+		text-align: center;
+		height:40px;
+		overflow: hidden;
+	}
 
+	.banner-footer{
+		color:white;
+		background-color:#2E345C;
+	}
 
-				/*-------------- NAVBAR 1024 ---------------*/
+	.banner-footer-left{
+		float:left;
+	}
 
-						.logo{
-							width:160px;
-							 height:auto;
-						}
+	.banner-footer-right{
+		float:right;
+	}
 
-
-
-				/*------------ END NAVBAR 1024 -------------*/
-
-
-
-
-
-				/*-------------- FOOTER 1024 ---------------*/
-
-
-
-				/*------------ END FOOTER 1024  -------------*/
-
-
-
-	/*-------------------------*/
-	/*------  END Structure 1024 -------*/
-	/*-------------------------*/
-
-
-}
-
-
-@media (max-width: 768px) {
-
-}
-
-
-@media (max-width: 414px) {
-
-}
-
-
-@media (max-width: 375px) {
-
-}
-
-
-@media (max-width: 320px) {
-
-}
+/*-------------------------*/
+/*----  END DASHBOARD -----*/
+/*-------------------------*/
