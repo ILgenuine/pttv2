@@ -22,7 +22,5 @@
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css" media="screen"/>
 
-
-
     <!-- Flaticon -->
     <link rel="stylesheet" type="text/css" href="assets/fonts/flat-icon/flaticon.css">
