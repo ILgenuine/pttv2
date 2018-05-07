@@ -1,8 +1,8 @@
 <footer class="footer">
 
-        <div class="top-footer row py-1 px-5">
+        <div class="top-footer row py-1 px-5 mx-0">
 
-          <ul class="navbar-nav flex-column flex-lg-row flex-md-column pr-2">
+          <ul class="navbar-nav flex-column flex-lg-row flex-md-column">
               <?php $actual_link = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; ?>
 
                 <li class="nav-item ml-5 mr-5 pull-left">

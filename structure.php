@@ -9,26 +9,93 @@
     <?php include_once('inc/navbar.php'); ?>
 
 
-  <div class="container">
-            <div class="col-sm-12 my-3">
-              <input placeholder="ค้นหา" type="text" class="form-control search-form text-center">
-              <button class="search-box">
-                 <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
-            </div>
+
+    <img src="assets/images/all.jpg" alt="" width="100%" height="100%">
 
 
-              <div class="col-sm-12">
-                  <div class="form-group">
-                    <select class="form-control">
-                      <option>REQUEST ENTRY</option>
-                      <option>ENTRY</option>
-                      <option>REQUEST</option>
-                      <option>ENTRY</option>
-                      <option>REQUEST</option>
-                    </select>
+  <div class="container my-5">
+
+
+
+
+              <div class="blue-box">
+
+
+                <div class="col-sm-12 my-3">
+                  <a href="#" class="text-grey navigation">text > </a><label class="text-darkblue navigation">text</label>
+                </div>
+
+                <div class="col-sm-12 my-3">
+                  <span class="flaticon-facebook-letter-logo icon-darkblue nav-icon"></span>
+                  <span class="flaticon-twitter-logo-silhouette icon-darkblue nav-icon"></span>
+                  <span class="flaticon-social-media icon-darkblue nav-icon"></span>
+                  <span class="flaticon-office icon-darkblue nav-icon"></span>
+                  <span class="flaticon-copy-content icon-darkblue nav-icon"></span>
+                  <span class="flaticon-keys icon-darkblue nav-icon"></span>
+                  <span class="flaticon-user-1 icon-darkblue nav-icon"></span>
+                  <span class="flaticon-cancel icon-darkblue nav-icon"></span>
+                  <span class="flaticon-technology-1 icon-darkblue nav-icon"></span>
+                  <span class="flaticon-telephone icon-darkblue nav-icon"></span>
+                  <span class="flaticon-create-new-pencil-button icon-darkblue nav-icon"></span>
+                  <span class="flaticon-download-button icon-darkblue nav-icon"></span>
+                  <span class="flaticon-printing-tool icon-darkblue nav-icon"></span>
+                  <span class="flaticon-minus-sign-inside-a-black-circle icon-darkblue nav-icon"></span>
+                  <span class="flaticon-plus-sign-in-a-black-circle icon-darkblue nav-icon"></span>
+                  <span class="flaticon-plus-symbol-in-a-rounded-black-square icon-darkblue nav-icon"></span>
+                  <span class="flaticon-user icon-darkblue nav-icon"></span>
+                  <span class="flaticon-technology icon-darkblue nav-icon"></span>
+                  <span class="flaticon-shopping-cart icon-darkblue nav-icon"></span>
+                  <span class="flaticon-letter icon-darkblue nav-icon"></span>
+
+                </div>
+
+                <div class="col-sm-12 my-3">
+
+                  <button class="btn plus-btn">
+                    <i class="flaticon-plus-symbol-in-a-rounded-black-square icon-darkblue"></i>
+                  </button>
+
+
+
+                </div>
+
+
+
+                  <div class="col-sm-12 my-3">
+                    <input placeholder="ค้นหา" type="text" class="form-control search-form text-center">
+                    <button class="search-box">
+                       <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
                   </div>
-              </div>            
+
+
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                          <select class="form-control">
+                            <option>REQUEST ENTRY</option>
+                            <option>ENTRY</option>
+                            <option>REQUEST</option>
+                            <option>ENTRY</option>
+                            <option>REQUEST</option>
+                          </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                      <button type="button" class="btn btn-main">Primary</button>
+                      <button type="button" class="btn btn-ghost">Ghost</button>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
   </div>
 
 
