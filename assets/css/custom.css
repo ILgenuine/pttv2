@@ -467,6 +467,46 @@
 		text-decoration: none;
 	}
 
+	.side-nav{
+		text-align: center;
+		padding:24px 8px 24px 16px;
+	}
+
+	.side-nav-menu{
+		padding-top: 7px;
+		padding-bottom: 7px;
+		width:100%;
+		border:2px solid  #CCC;
+		border-bottom: none;
+	}
+
+	.side-nav-menu:hover{
+		color:#52adda;
+	}
+
+	.side-nav-menu:last-child{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		width:100%;
+		border:2px solid  #CCC;
+	}
+
+	.side-nav .all{
+		background-color:#dcf2fd;
+		text-decoration: none;
+	}
+
+	.side-nav .all:hover{
+		background-color:#CCC;
+		text-decoration: none;
+		color:white;
+	}
+
+	.side-nav .all:hover .text-blue{
+		text-decoration: none;
+		color:white;
+	}
+
 
 
 /*-------------------------*/
