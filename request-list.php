@@ -13,7 +13,7 @@
     <div class="container-fluid">    
 
 <!-- ================================ Input - Search ================================= -->
-      <div class="row py-4 px-3">
+      <div class="row py-4 px-5">
         
         <div class="col-sm-12">
             <form class="form-inline" style="margin-bottom: 0px;">
