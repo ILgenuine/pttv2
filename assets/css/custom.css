@@ -222,9 +222,13 @@
 
 
 
-				/*========== REPORT ==================*/
-
-
+			/*========== REPORT ==================*/
+			.report-text-grey {
+				color: #666666;
+			}
+			.report-text-grey {
+				color:#2E345C;
+			}
 
 
 
