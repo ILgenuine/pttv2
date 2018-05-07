@@ -214,13 +214,15 @@
           <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
               <li class="page-item">
-                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                <a class="page-link bnt-pagination-previous text-blue" href="#" tabindex="-1"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
               </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link text-blue" href="#">1</a></li>
+              <li class="page-item"><a class="page-link text-blue" href="#">2</a></li>
+              <li class="page-item"><a class="page-link text-blue" href="#">3</a></li>
+              <li class="page-item"><a class="page-link text-blue" href="#">4</a></li>
+              <li class="page-item"><a class="page-link text-blue" href="#">5</a></li>
               <li class="page-item">
-                <a class="page-link" href="#">Next</a>
+                <a class="page-link bnt-pagination-next text-blue" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
               </li>
             </ul>
           </nav>
