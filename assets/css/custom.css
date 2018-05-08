@@ -235,6 +235,9 @@
 				cursor: pointer;
 			}
 
+			.grey-box{
+				background-color: #f6fbff;
+			}
 
 			/*-------------- NAVBAR  ---------------*/
 
@@ -802,10 +805,13 @@
 	}
 	.inbox-border-table {
 		border: 1px solid #cccccc;
-	}    
+	}
 /*-------------------------*/
 /*-----  END INBOX -------*/
 /*-------------------------*/
+
+
+
 
 /*-------------------------
 -------- REQUEST -----------
@@ -822,4 +828,43 @@
 	}
 /*-------------------------
 -------- END REQUEST ------
+----------------------------*/
+
+
+
+
+/*-------------------------
+-------- PRODUCTDETAIL -----------
+----------------------------*/
+
+	.product-img-frame{
+		background-color: white;
+		border:2px solid #ccc;
+		border-radius: 8px;
+		height:550px;
+		overflow: hidden;
+	}
+
+	.productdetail{
+		height:140px;
+		overflow-y: hidden;
+		margin-top:30px;
+	}
+
+	.product-count{
+		margin-bottom: 15px;
+		margin-left: 15px;
+		margin-right: 15px;
+		width:6%;
+	}
+
+	.producdetail-btn{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 20px;
+	}
+
+
+/*-------------------------
+-------- END PRODUCTDETAIL ------
 ----------------------------*/
