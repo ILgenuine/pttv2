@@ -11,7 +11,7 @@
 <div class="container-fluid">
   <div class="row py-4 px-3">
     <div class="col-md-6">
-      <div><b class="text-darkblue">Inbox</b></div>
+      <div><h3 class="text-darkblue">Inbox</h3></div>
     </div>
     <div class="col-md-4">
       <div>
@@ -179,7 +179,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel"><b class="text-darkblue">หัวข้อหัวข้อหัวข้อหัวข้อหัวข้อหัวข้อ</b></h5>
+              <h5 class="modal-title" id="exampleModalLabel"><b class="text-darkblue">หัวข้อคำถาม AA</b></h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span class="flaticon-cancel icon-darkblue nav-icon inbox-bnt-closd"></span>
               </button>
@@ -190,11 +190,11 @@
             <div class="modal-body">
               <div class="row">
                   <!-- left chat-->
-                  <div class="col-sm-12">
+                  <div class="col-sm-12 mb-2">
                     <div class="pull-left">
                         <font class="text-grey">มานะใจดี 30/03/2561 09.00 น.</font><br>
                           <div class="pull-left">
-                            <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
+                            <img src="assets/images/profile-picture.png" class="footer-sp" style="position:relative;top:5px">
                           </div>
                           <div class="pull-left left-chat-mt">
                             <font class="left-chat-bubble">
@@ -204,11 +204,11 @@
                     </div>
                   </div>
                   <!-- Right chat-->
-                  <div class="col-sm-12 pull-right">
+                  <div class="col-sm-12 mb-2 pull-right">
                     <div class="pull-right">
                       <font class="text-grey pull-right">Web Master 30/03/2561 09.10 น.</font><br>
                       <div class="pull-right">
-                        <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
+                        <img src="assets/images/profile-picture.png" class="footer-sp" style="position:relative;top:5px">
                       </div>
                       <div class="pull-right right-chat-mt">
                         <font class="right-chat-bubble">
@@ -218,11 +218,11 @@
                     </div>
                   </div>
                   <!-- left chat-->
-                  <div class="col-sm-12">
+                  <div class="col-sm-12 mb-2">
                     <div class="pull-left">
                         <font class="text-grey">มานะใจดี 30/03/2561 09.15 น.</font><br>
                           <div class="pull-left">
-                            <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
+                            <img src="assets/images/profile-picture.png" class="footer-sp" style="position:relative;top:5px">
                           </div>
                           <div class="pull-left left-chat-mt">
                             <font class="left-chat-bubble">
@@ -232,11 +232,11 @@
                     </div>
                   </div>
                   <!-- Right chat-->
-                  <div class="col-sm-12 pull-right">
+                  <div class="col-sm-12  mb-2 pull-right">
                     <div class="pull-right">
                       <font class="text-grey  pull-right">Web Master 30/03/2561 09.10 น.</font><br>
                       <div class="pull-right">
-                        <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
+                        <img src="assets/images/profile-picture.png" class="footer-sp" style="position:relative;top:5px">
                       </div>
                       <div class="pull-right right-chat-mt">
                         <font class="right-chat-bubble">
@@ -246,11 +246,11 @@
                     </div>
                   </div>
                   <!-- left chat-->
-                  <div class="col-sm-12">
+                  <div class="col-sm-12 mb-2">
                     <div class="pull-left">
                         <font class="text-grey">มานะใจดี 30/03/2561 09.15 น.</font><br>
                           <div class="pull-left">
-                            <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
+                            <img src="assets/images/profile-picture.png" class="footer-sp" style="position:relative;top:5px">
                           </div>
                           <div class="pull-left left-chat-mt">
                             <font class="left-chat-bubble">
@@ -271,10 +271,10 @@
                   </div>
                 </div>
                 <div class="col-sm-2">
-                  <div class="text-right inbox-footer-right-35px"><button type="button" class="btn btn-main text-right inbox-bnt-enter">ส่ง</button></div>
+                  <div class="text-right inbox-footer-right-35px mb-2"><button type="button" class="btn btn-main modal-btn">ส่ง</button></div>
                   <div class="text-right inbox-footer-right-35px">
                     <label class="fileContainer">
-                        <div class="inbox-bnt-file">แนบไฟล์</div>
+                        <button type="button" class="btn btn-ghost modal-btn">แนบไฟล์</button>
                         <input type="file">
                     </label>
                   </div>

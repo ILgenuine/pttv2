@@ -8,7 +8,6 @@
 
     <?php include_once('inc/navbar.php'); ?>
 
-
     <div class="row mx-0">
 
 
@@ -542,7 +541,7 @@
           </div>
         </div>
 
-    </di>
+  </div>
 
 
 
