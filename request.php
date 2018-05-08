@@ -226,12 +226,21 @@
                       <button class="button inbox-quantity-minus"><i class="fa fa-minus"></i></button>
                   </td>
                 </tr>
+                <tr>
+                  <td class="inbox-border-table request-total text-darkblue" colspan="10">Total 20,000 Bath</td>
+                </tr>
               </tbody>
             </table>
           </div>
+        </div>
 
-
-
+        <div class="row">
+            <div class="col-sm-12 mt-4 mb-5">
+              <div class="text-center">
+                <button type="button" class="btn btn-main request-bnt-size">ยืนยันข้อมูล</button>
+                <button type="button" class="btn btn-ghost request-bnt-size">กลับไปเลือกสินค้าต่อ</button>
+              </div>
+            </div>
         </div>
 
      </div>
