@@ -823,3 +823,30 @@
 /*-------------------------
 -------- END REQUEST ------
 ----------------------------*/
+
+/*-------------------------
+---------- LOGIN ----------
+---------------------------*/
+	.login-input-group {
+		/*border: none;*/
+	    border-right: none!important;
+	    padding-top: 5px;
+	    background: no-repeat;
+	    /* cursor: pointer; */
+	    border: 2px solid #CCCCCC;
+	    border-radius: 4px 0px 0px 4px !important;
+	}
+	.login-input-border {
+		border-left: none;
+		border-radius: 0px 5px 5px 0px!important;
+	}
+	.login-icon-left:before {
+		margin-left: 10px!important;
+	}
+	.login-forget-pass {
+		font-size: 16px;
+    	color: 666666;
+	}
+/*------------------------
+-------- END LOGIN -------
+--------------------------*/
