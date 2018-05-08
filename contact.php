@@ -62,7 +62,7 @@
 
 
           <div class="col-sm-6">
-            <form class="blue-box py-4 px-3 my-4" style="border-radius: 5px;">
+            <form class="blue-box py-4 px-4 my-4" style="border-radius: 5px;">
               <div class="form-group row">
                 <label for="staticEmail" class="col-sm-3 col-form-label text-grey">เลือกหัวข้อการติดต่อ</label>
                 <div class="col-sm-9">

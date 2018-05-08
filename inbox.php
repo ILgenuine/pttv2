@@ -10,15 +10,21 @@
 <!-- ===================================== TABLE ==================================== -->
     <div class="container-fluid">
       <div class="row py-4 px-3">
-        <div class="col-md-7">
+        <div class="col-md-6">
           <div><b class="text-darkblue">Inbox</b></div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-4">
           <div>
             <input placeholder="ค้นหา" type="text" class="form-control search-form text-center">
             <button class="search-box">
                 <i class="fa fa-search" aria-hidden="true"></i>
             </button>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="text-right">
+            <button class="button plus-btn"><i class="fa fa-plus"></i></button>
+            <b class="text-grey"> เพิ่มหัวข้อคำถาม</b>
           </div>
         </div>
 
@@ -180,6 +186,9 @@
                 <span class="flaticon-cancel icon-darkblue nav-icon inbox-bnt-closd"></span>
               </button>
             </div>
+
+
+
             <div class="modal-body">
               <div class="row">
                   <!-- left chat-->
@@ -224,8 +233,39 @@
                           </div>
                     </div>
                   </div>
+                  <!-- Right chat-->
+                  <div class="col-sm-12 pull-right">
+                    <div class="pull-right">
+                      <font class="text-grey">Web Master 30/03/2561 09.10 น.</font><br>
+                      <div class="pull-right">
+                        <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
+                      </div>
+                      <div class="pull-right right-chat-mt">
+                        <font class="right-chat-bubble">
+                          คำตอบ
+                        </font>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- left chat-->
+                  <div class="col-sm-12">
+                    <div class="pull-left">
+                        <font class="text-grey">มานะใจดี 30/03/2561 09.15 น.</font><br>
+                          <div class="pull-left">
+                            <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
+                          </div>
+                          <div class="pull-left left-chat-mt">
+                            <font class="left-chat-bubble">
+                              สอบถาม
+                            </font>
+                          </div>
+                    </div>
+                  </div>
               </div>
             </div>
+
+
+
             <div class="modal-footer" style="padding-top: 35px;">
                 <div class="col-sm-10">
                   <div class="inbox-footer-left-30px">
