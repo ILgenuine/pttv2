@@ -176,6 +176,23 @@
               <a href="product.php" class="text-grey navigation">รายการสินค้า > </a><a href="product.php" class="text-grey navigation">ประเภทสินค้า > </a><label class="text-darkblue navigation">ดูทั้งหมด</label>
           </div>
 
+
+          <div class="col-sm-12">
+              <div class="blue-box">
+                <div class="row m-0">
+                  <div class="col-5 p-3">
+                    <div class="product-img-frame">
+                      <img class="card-img-top" src="assets/images/product/product_1.png" alt="Card image cap" width="100%" height="350px;">
+                    </div>
+                  </div>
+                  <div class="col-7 p-3">
+
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
           <div class="col-sm-12">
             <div class="row m-0">
 
