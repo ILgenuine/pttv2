@@ -42,6 +42,10 @@
 					border:2px solid #CCCCCC;
 					border-radius: 4px 4px 4px 4px !important;
 			}
+			.row {
+			    margin-right: 0px;
+			    margin-left: 0px;
+			}
 
 			.icon-darkblue{
 				color:#2E345C;
