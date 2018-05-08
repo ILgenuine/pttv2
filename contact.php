@@ -7,100 +7,128 @@
   <body>
 
     <?php include_once('inc/navbar.php'); ?>
-        <div class="row contact-row text-grey">
+
+      <div class="container-fluid">
+        <div class="row py-4 px-5">
+          <div class="col-sm-6">
+            <div class="text-darkblue"><p>บริษัท พีที โกลบอล เคมิคอล จำกัด(มหาชน)</p></div>
 
 
-          <div class="col-md-6">
-            <div class="col-md-12"><p class="contact-text-haed"><b>บริษัท พีทีที โกลบอล เคมิคอล จำกัด (มหาชน)</b></p></div>
-            <div class="col-md-12 contact-pb-1">
-              <div class="col-md-1"><i class="flaticon-office contact-pr-0"></i></div>
-              <div class="col-md-11 contact-pl-5 contact-hidden-1">Head Office เลขที่ 555/1 ศูนย์เอนเนอร์ยี่คอมเพล็กซ์ อาคารเอกชั้น 3,10 ถนนวิภาวดีรังสิต แขวงจอมพล เขตจตุจักร กรุงเทพ 10900</div>
-            </div>
 
-            <div class="col-md-12 contact-pb-1">
-              <div class="col-md-1"><i class="flaticon-telephone contact-pr-0"></i></div>
-              <div class="col-md-11 contact-pl-5 contact-hidden-2">02-2265-8400</div>
-            </div>
+              <div class="row">
+                <div class="col-sm-1 text-right"><i class="flaticon-office text-grey"></i></div>
+                <div class="col-sm-11">
+                  <p class="text-grey letter-spacing">
+                    Head Office เลขที่ 555/1 ศูนเอนเนอร์ยี่คอมเพล็กซ์ อาคารเอ ชั้น 3,10 ถนนวิภาวดีรังสิต แขวงจอมพล เขตจตุจักร กรุงเทพฯ 10900
+                  </p>
+                </div>
 
-            <div class="col-md-12 contact-pb-1">
-              <div class="col-md-1"><i class="flaticon-technology-1 contact-pr-0"></i></div>
-              <div class="col-md-11 contact-pl-5 contact-hidden-2">02-2265-8500</div>
-            </div>
+                <div class="col-sm-1 text-right"><i class="flaticon-telephone text-grey"></i></div>
+                <div class="col-sm-11">
+                  <p class="text-grey letter-spacing">
+                    02-2265-8400
+                  </p>
+                </div>
 
-            <div class="col-md-12">
-              <div><img src="assets/images/Head-Office.jpg" width="100%" height="358" style="border: solid 1px #DCF3FE;"></div>
-            </div>
+                <div class="col-sm-1 text-right"><i class="flaticon-technology-1 text-grey"></i></div>
+                <div class="col-sm-11">
+                  <p class="text-grey letter-spacing">
+                    02-2265-8500
+                  </p>
+                </div>
+
+                <div class="col-sm-12">
+                  <div>
+                    <!-- <img src="assets/images/Head-Office.jpg" width="100%" height="358" style="border: solid 1px #DCF3FE;"> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.350476137485!2d100.55533411483124!3d13.817981190304678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29c5b83812da9%3A0x817f06348db4e36a!2zUFRUIEhlYWQgT2ZmaWNlIOC4quC4s-C4meC4seC4geC4h-C4suC4meC5g-C4q-C4jeC5iCDguJvguJXguJcu!5e0!3m2!1sth!2sth!4v1525747902482" width="100%" height="360" frameborder="0" style="border: 1px solid #00a1e9;border-radius: 5px;" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+
+
+
+<!--             <form>
+              <div class="form-group row">
+                <div for="staticEmail" class="col-sm-1 text-right"><i class="flaticon-office text-grey"></i></div>
+                <div class="col-sm-11">
+                  <p class="text-grey">
+                    02-2265-8400
+                  </p>
+                </div>
+              </div>
+            </form> -->
+
           </div>
 
 
-
-          <div class="col-md-6 contact-background-set" style="position: relative;">
-              <div class="form-group">
-                <label class="control-label col-md-3 contact-label">เลือกหัวข้อการติดต่อ</label>
-                <div class="col-md-9">
-                  <select class="form-control contact-formborser contact-select" id="sel1">
-                    <option>ฝ่ายการขาย</option>
-                    <option>ฝ่าย IT</option>
-                    <option>สมัครงาน</option>
-                    <option>อื่นๆ</option>
+          <div class="col-sm-6">
+            <form class="blue-box py-4 px-3 my-4" style="border-radius: 5px;">
+              <div class="form-group row">
+                <label for="staticEmail" class="col-sm-3 col-form-label text-grey">เลือกหัวข้อการติดต่อ</label>
+                <div class="col-sm-9">
+                  <select class="form-control text-grey">
+                    <option>test1</option>
+                    <option>test2</option>
+                    <option>test3</option>
+                    <option>test4</option>
                   </select>
                 </div>
               </div>
 
-              <div class="form-group contact-fromgroup">
-                <label class="control-label col-md-3 contact-label">ชื่อ - นามสกุล</label>
-                <div class="col-md-9">
-                    <input type="text" class="form-control contact-formborser contact-mb-1" id="name-lastname">
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-3 col-form-label text-grey">ชื่อ - นามสกุล</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control">
                 </div>
               </div>
 
-              <div class="form-group contact-fromgroup">
-                <label class="control-label col-md-3 contact-label">บริษัท</label>
-                <div class="col-md-9">
-                    <input type="text" class="form-control contact-formborser contact-mb-1" id="office">
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-3 col-form-label text-grey">บริษัท</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control">
                 </div>
               </div>
 
-
-              <div class="form-group contact-fromgroup">
-                <label class="control-label col-md-3 contact-label">เบอร์โทร</label>
-                <div class="col-md-9">
-                    <input type="text" class="form-control contact-formborser contact-mb-1" id="phone">
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-3 col-form-label text-grey">เบอร์โทร</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control">
                 </div>
               </div>
 
-              <div class="form-group contact-fromgroup">
-                <label class="control-label col-md-3 contact-label">อีเมล</label>
-                <div class="col-md-9">
-                    <input type="email" class="form-control contact-formborser contact-mb-1" id="email">
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-3 col-form-label text-grey">อีเมล</label>
+                <div class="col-sm-9">
+                  <input type="email" class="form-control">
                 </div>
               </div>
 
-              <div class="form-group contact-fromgroup">
-                <label class="control-label col-md-2 contact-label">หัวข้อ</label>
-                <div class="col-md-10">
-                    <input type="text" class="form-control contact-formborser contact-mb-1" id="title">
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label text-grey">หัวข้อ</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control">
                 </div>
               </div>
 
-              <div class="form-group contact-fromgroup">
-                <label class="control-label col-md-2 contact-label">ข้อความ</label>
-                <div class="col-md-10">
-                    <textarea class="form-control contact-formborser contact-mb-1" rows="8" id="comment" style="resize: none;"></textarea>
+              <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label text-grey">ข้อความ</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" rows="5" style="resize: none"></textarea>
                 </div>
               </div>
+            </form>
           </div>
 
 
-          <div class="col-md-12">
-            <div class="contact-position-right contact-fromgroup">
-              <button type="button" class="btn-primary contact-btn-size">ตกลง</button>
-              <button type="button" class="btn btn-default btn-ghost contact-btn-size" style="margin-top: -10px;">ยกเลิก</button>
+          <div class="col-sm-12 mt-3 mb-3">
+            <div class="text-right">
+              <button type="button" class="btn btn-main request-bnt-size">ตกลง</button>
+              <button type="button" class="btn btn-ghost request-bnt-size">ยกเลิก</button>
             </div>
           </div>
 
         </div>
-
+      </div>
 
 
     <?php include_once('inc/footer.php'); ?>

@@ -230,7 +230,9 @@
 			.page-link:hover {
 			    background-color: #dcf3fe;
 			}
-
+			.letter-spacing {
+				letter-spacing: 1px;
+			}
 
 			/*-------------- NAVBAR  ---------------*/
 
