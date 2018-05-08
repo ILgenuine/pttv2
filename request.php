@@ -169,7 +169,9 @@
 <!-- =================== Table ====================================== -->
         <div class="row px-4 mb-4">
           <div class="col-sm-9">
-            <div class="ml-1"><button class="button plus-btn"><i class="fa fa-plus"></i></button></div>
+            <div class="ml-1">
+              <button class="button plus-btn"><i class="fa fa-plus"></i></button>
+            </div>
           </div>
           <div class="col-sm-3">
             <div class="row text-right pr-2">
@@ -181,7 +183,7 @@
           </div>
 
 
-          <div class="col-sm-12 mt-4">
+          <div class="col-sm-12 mt-2">
             <table class="table width100" style="margin:auto;">
               <thead>
                 <tr>
