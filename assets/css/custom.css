@@ -159,9 +159,8 @@
 			}
 
 			.modal-body {
-			    height: 500px;
-			    max-height: 500px !important;
-			    overflow-y: scroll;
+			    max-height: 520px !important;
+			    overflow-y: auto;
 			    margin: 0px 60px 0px 60px;
 			    border: 1px solid #ddd;
 			}
