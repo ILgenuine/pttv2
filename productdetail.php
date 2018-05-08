@@ -178,15 +178,49 @@
 
 
           <div class="col-sm-12">
-              <div class="blue-box">
+              <div class="blue-box grey-box">
                 <div class="row m-0">
-                  <div class="col-5 p-3">
+                  <div class="col-5">
                     <div class="product-img-frame">
-                      <img class="card-img-top" src="assets/images/product/product_1.png" alt="Card image cap" width="100%" height="350px;">
+                      <img class="card-img-top" src="assets/images/product/product_2.jpg" alt="Card image cap" width="100%" height="100%">
                     </div>
                   </div>
                   <div class="col-7 p-3">
-
+                    <div class="row m-0">
+                      <div class="col-4">
+                        <div class="card-status-request text-center">
+                           AS REQUEST
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <div class="text-right">
+                           <h3 class="text-darkblue">ราคา 100 บาท</h3>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="mt-4">
+                           <h3 class="text-blue">01-165-2</h3>
+                        </div>
+                        <div class="productdetail">
+                           <h3 class="text-grey">สีทาถนนไม่สะท้อนแสง JOTUN สีดำ</h3>
+                        </div>
+                        <div class="mt-4">
+                           <h3 class="text-grey">แบรนด์</h3>
+                        </div>
+                      </div>
+                      <div class="col-12 mt-4">
+                        <div class="d-flex">
+                            <button class="button quantity-minus mt-1"><i class="fa fa-minus"></i></button>
+                            <input class="product-count form-control" type="number">
+                            <button class="button quantity-plus mt-1"><i class="fa fa-plus"></i></button>
+                            <label class="text-grey ml-3  mt-1">ชิ้น</label>
+                        </div>
+                      </div>
+                      <div class="col-12 mt-4">
+                        <button type="button" class="btn btn-main p-4"><font class="producdetail-btn">เพิ่มสินค้าลงในตะกร้า</font></button>
+                        <button type="button" class="btn btn-ghost p-4"><font class="producdetail-btn">กลับไปเลือกสินค้าต่อ</font></button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -202,8 +236,8 @@
                 <div class="card">
                   <div class="card-header">
                     <img class="card-img-top" src="assets/images/product/product_1.png" alt="Card image cap" width="100%" height="350px;">
-                    <div class="card-status-request">
-                       AS REQUEST
+                    <div class="card-status-shelf">
+                       KEEP ON SHELF
                     </div>
                     <div class="card-overlay">
                       <button class="button plus-btn overlay-btn"><i class="fa fa-plus"></i></button>
@@ -221,6 +255,7 @@
                       <font class="product-price">ราคา 100 บาท</font>
                     </div>
                   </div>
+
                 </div>
               </div>
 

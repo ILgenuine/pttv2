@@ -9,7 +9,7 @@
     <?php include_once('inc/navbar.php'); ?>
 <!-- ============================ content ============================================= -->
      <div class="content-fluid">
-        
+
         <div class="row py-4 px-5">
           <div class="col-sm-12">
             <form class="form-inline" style="margin-bottom: 0px;">
@@ -20,7 +20,7 @@
           </div>
 
 
-           <div class="col-sm-12" style="background-color: #dcf3fe;">
+           <div class="col-sm-12 grey-box">
               <div class="row mt-4 mb-4 ml-4 mr-4">
                     <div class="col-sm-2 mt-4 text-grey">
                        Request No :
@@ -77,7 +77,7 @@
                         <option>test2</option>
                         <option>test3</option>
                         <option>test4</option>
-                      </select>                    
+                      </select>
                     </div>
 
 
@@ -90,7 +90,7 @@
 
 
                     <div class="col-sm-2 mt-4 text-grey">
-                      Tel : 
+                      Tel :
                     </div>
                     <div class="col-sm-4 mt-4">
                       <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="080-0000000">
@@ -99,7 +99,7 @@
 
 
                     <div class="col-sm-2 mt-4 text-grey">
-                      Work Order No : 
+                      Work Order No :
                     </div>
                     <div class="col-sm-4 mt-4">
                       <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="RE 01-000015" disabled>
@@ -108,14 +108,14 @@
 
 
                     <div class="col-sm-2 mt-4 text-grey">
-                      Email : 
+                      Email :
                     </div>
                     <div class="col-sm-4 mt-4">
                       <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="Mana@gmail.com">
                     </div>
 
                     <div class="col-sm-2 mt-4 text-grey">
-                      Cost Center : 
+                      Cost Center :
                     </div>
                     <div class="col-sm-4 mt-4">
                       <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="...">
@@ -123,7 +123,7 @@
 
 
                     <div class="col-sm-2 mt-4 text-grey">
-                      Type of Contact : 
+                      Type of Contact :
                     </div>
                     <div class="col-sm-4 mt-4">
                       <select class="form-control text-grey">
@@ -134,9 +134,9 @@
                       </select>
                     </div>
 
-  
+
                     <div class="col-sm-2 mt-4 text-grey">
-                        Work location : 
+                        Work location :
                     </div>
                     <div class="col-sm-4 mt-4">
                       <select class="form-control text-grey">
@@ -146,14 +146,14 @@
                         <option>test4</option>
                       </select>
                     </div>
-  
+
 
 
 
                     <div class="col-sm-12">
                       <div class="row">
                         <div class="col-sm-2 mt-4 mb-4 text-grey">
-                          Head Note : 
+                          Head Note :
                         </div>
                         <div class="col-sm-10 mt-4 mb-4">
                           <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="...">
@@ -209,7 +209,7 @@
                   <td class="inbox-border-table px-3 text-center vertical-middle">5,000</td>
                   <td class="inbox-border-table px-3 text-center vertical-middle text-green" style="border-right: none;">NEW REQUSET</td>
                   <td class="inbox-border-table vertical-middle" style="border-left: none;">
-                      <button class="button inbox-quantity-minus"><i class="fa fa-minus"></i></button> 
+                      <button class="button inbox-quantity-minus"><i class="fa fa-minus"></i></button>
                   </td>
                 </tr>
                 <tr>

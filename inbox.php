@@ -50,7 +50,7 @@
                   <th class="text-center" style="width: 9%;"></th>
                 </tr>
               </thead>
-              
+
               <tbody>
                 <tr>
                   <td class="text-center text-grey">1</td>
@@ -163,7 +163,7 @@
               </li>
             </ul>
           </nav>
-        </div> 
+        </div>
 
       </div>
 
@@ -173,7 +173,7 @@
         Launch demo modal
       </button>
  -->
-    
+
     </div>
 
       <!-- Modal -->
@@ -208,7 +208,7 @@
                   <!-- Right chat-->
                   <div class="col-sm-12 pull-right">
                     <div class="pull-right">
-                      <font class="text-grey">Web Master 30/03/2561 09.10 น.</font><br>
+                      <font class="text-grey pull-right">Web Master 30/03/2561 09.10 น.</font><br>
                       <div class="pull-right">
                         <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
                       </div>

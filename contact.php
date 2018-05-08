@@ -11,7 +11,7 @@
       <div class="container-fluid">
         <div class="row py-4 px-5">
           <div class="col-sm-6">
-            <div class="text-darkblue"><p>บริษัท พีที โกลบอล เคมิคอล จำกัด(มหาชน)</p></div>
+            <div ><h3 class="text-darkblue">บริษัท พีที โกลบอล เคมิคอล จำกัด(มหาชน)</h3></div>
 
 
 
@@ -140,4 +140,3 @@
 </html>
 
 <?php include_once('inc/footer-script.php'); ?>
-

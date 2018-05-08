@@ -51,7 +51,7 @@
                    </a>
                 </li>
                 <li class="nav-item pt-1  mr-2">
-                    <a href="index.php" class="nav-badge">
+                    <a href="inbox.php" class="nav-badge">
                       <span class="flaticon-letter icon-darkblue nav-icon"></span>
                       <span class="badge-2-digit"> 10 </span>
                     </a>
