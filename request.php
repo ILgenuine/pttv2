@@ -7,50 +7,59 @@
   <body>
 
     <?php include_once('inc/navbar.php'); ?>
+<!-- ============================ content ============================================= -->
+     <div class="content-fluid">
+        
+        <div class="row py-4 px-5">
+          <div class="col-sm-12">
+            <form class="form-inline" style="margin-bottom: 0px;">
+              <p class="mr-2 text-grey">ใบสั่งซื้อ</p>
+              <p class="mr-2 text-grey">></p>
+              <p class="mr-2 text-darkblue">KEEP ON SHELF</p>
+            </form>
+          </div>
 
-        <div class="ml-5 mt-4">
-          <a href="#"><font class="text-grey">ใบสั่งซื้อ ></font></a> <font class="text-darkblue">TEST TEXT</font>
-        </div>
-        <div class="div header-div edit-profile mt-4">
-              <div class="row px-5  mt-4 mb-4">
-                    <div class="col-sm-3 mt-4">
+
+           <div class="col-sm-12" style="background-color: #dcf3fe;">
+              <div class="row mt-4 mb-4 ml-4 mr-4">
+                    <div class="col-sm-2 mt-4 text-grey">
                        Request No :
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
+                    <div class="col-sm-4 mt-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="RE-01-001" disabled>
                     </div>
 
 
-                    <div class="col-sm-3 mt-4">
+                    <div class="col-sm-2 mt-4 text-grey">
                         Request Data :
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
+                    <div class="col-sm-4 mt-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="02/01/2561" disabled>
                     </div>
 
 
-                    <div class="col-sm-3 mt-4">
+                    <div class="col-sm-2 mt-4 text-grey">
                       Data Require :
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
+                    <div class="col-sm-4 mt-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="01/01/2561" disabled>
                     </div>
 
 
-                    <div class="col-sm-3 mt-4">
+                    <div class="col-sm-2 mt-4 text-grey">
                       Confirm Data :
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
+                    <div class="col-sm-4 mt-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="01/01/2561" disabled>
                     </div>
 
 
 
-                    <div class="col-sm-3 mt-4">
+                    <div class="col-sm-2 mt-4 text-grey">
                       Plant :
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <select class="custom-option">
+                    <div class="col-sm-4 mt-4">
+                      <select class="form-control text-grey">
                         <option>test1</option>
                         <option>test2</option>
                         <option>test3</option>
@@ -59,64 +68,65 @@
                     </div>
 
 
-                    <div class="col-sm-3 mt-4">
+                    <div class="col-sm-2 mt-4 text-grey">
                       Division :
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <select class="custom-option">
+                    <div class="col-sm-4 mt-4">
+                      <select class="form-control text-grey">
                         <option>test1</option>
                         <option>test2</option>
                         <option>test3</option>
                         <option>test4</option>
-                      </select>                    </div>
-
-
-                    <div class="col-sm-3 mt-4">
-                      ชื่อจริง (ภาษาไทย)
-                    </div>
-                    <div class="col-sm-3 mt-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
+                      </select>                    
                     </div>
 
 
-                    <div class="col-sm-3 mt-4">
-                      ชื่อจริง (ภาษาอังกฤษ)
+                    <div class="col-sm-2 mt-4 text-grey">
+                      Request Name :
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
+                    <div class="col-sm-4 mt-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="Mana jaidee">
                     </div>
 
 
-
-                    <div class="col-sm-3 mt-4">
-                      นามสกุล (ภาษาไทย)
+                    <div class="col-sm-2 mt-4 text-grey">
+                      Tel : 
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
+                    <div class="col-sm-4 mt-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="080-0000000">
                     </div>
 
 
 
-                    <div class="col-sm-3 mt-4">
-                      นามสกุล (ภาษาอังกฤษ)
+                    <div class="col-sm-2 mt-4 text-grey">
+                      Work Order No : 
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
-                    </div>
-
-                    <div class="col-sm-3 mt-4">
-                      ชื่อจริง (ภาษาไทย)
-                    </div>
-                    <div class="col-sm-3 mt-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
+                    <div class="col-sm-4 mt-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="RE 01-000015" disabled>
                     </div>
 
 
-                    <div class="col-sm-3 mt-4">
-                      ชื่อจริง (ภาษาอังกฤษ)
+
+                    <div class="col-sm-2 mt-4 text-grey">
+                      Email : 
                     </div>
-                    <div class="col-sm-3 mt-4">
-                      <select class="custom-option">
+                    <div class="col-sm-4 mt-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="..." placeholder="Mana@gmail.com">
+                    </div>
+
+                    <div class="col-sm-2 mt-4 text-grey">
+                      Cost Center : 
+                    </div>
+                    <div class="col-sm-4 mt-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="...">
+                    </div>
+
+
+                    <div class="col-sm-2 mt-4 text-grey">
+                      Type of Contact : 
+                    </div>
+                    <div class="col-sm-4 mt-4">
+                      <select class="form-control text-grey">
                         <option>test1</option>
                         <option>test2</option>
                         <option>test3</option>
@@ -124,50 +134,54 @@
                       </select>
                     </div>
 
-                    <div class="row px-3">
-                      <div class="col-sm-3 mt-4">
-                        ชื่อจริง (ภาษาไทย)
-                      </div>
-                      <div class="col-sm-8 ml-2 mt-4">
-                        <select class="custom-option resize">
-                          <option>test1</option>
-                          <option>test2</option>
-                          <option>test3</option>
-                          <option>test4</option>
-                        </select>
-                      </div>
+  
+                    <div class="col-sm-2 mt-4 text-grey">
+                        Work location : 
                     </div>
-
-
-
-
-                    <div class="col-sm-3 mt-4 mb-4">
-                      ชื่อจริง (ภาษาไทย)
+                    <div class="col-sm-4 mt-4">
+                      <select class="form-control text-grey">
+                        <option>test1</option>
+                        <option>test2</option>
+                        <option>test3</option>
+                        <option>test4</option>
+                      </select>
                     </div>
-                    <div class="col-sm-9 mt-4 mb-4">
-                      <input type="text" class="form-control search-form" style="margin:0px;text-align:left;" aria-label="...">
+  
+
+
+
+                    <div class="col-sm-12">
+                      <div class="row">
+                        <div class="col-sm-2 mt-4 mb-4 text-grey">
+                          Head Note : 
+                        </div>
+                        <div class="col-sm-10 mt-4 mb-4">
+                          <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="...">
+                        </div>
+                      </div>
                     </div>
               </div>
+           </div>
+
         </div>
 
 
-        <div class="row mt-4 mb-4" style="padding: 5px;">
-
-          <div class="col-sm-9 requst-px-autoset">
-            <button type="submit" class="btn btn-title-plus padding-x-0 requst-bnt-plus-size">
-              <i class="glyphicon glyphicon-plus" aria-hidden="true" style="top: 4px;"></i>
-            </button>
+<!-- =================== Table ====================================== -->
+        <div class="row px-4 mb-4">
+          <div class="col-sm-9">
+            <div class="ml-1"><button class="button plus-btn"><i class="fa fa-plus"></i></button></div>
           </div>
-          <div class="col-sm-3 requst-px-autoset">
-            <a href="#"><span class="flaticon-copy-content requst-flaticon col-sm-3" ></span></a>
-            <a href="#"><span class="flaticon-letter requst-flaticon col-sm-3"></span></a>
-            <a href="#"><span class="flaticon-printing-tool requst-flaticon col-sm-3"></span></a>
-            <a href="#"><span class="flaticon-download-button requst-flaticon col-sm-3"></span></a>
+          <div class="col-sm-3">
+            <div class="row text-right pr-2">
+              <div class="col-3"><a class="flaticon-copy-content inbox-icon-size"></a></div>
+              <div class="col-3"><a class="flaticon-letter inbox-icon-size"></a></div>
+              <div class="col-3"><a class="flaticon-printing-tool inbox-icon-size"></a></div>
+              <div class="col-3"><a class="flaticon-download-button inbox-icon-size"></a></div>
+            </div>
           </div>
 
 
-
-          <div class="col-sm-12 mt-4 m-3 mb-4 px-5">
+          <div class="col-sm-12 mt-4">
             <table class="table width100" style="margin:auto;">
               <thead>
                 <tr>
@@ -185,65 +199,54 @@
               </thead>
               <tbody>
                 <tr>
-                  <td class="requst-border-th text-center vertical-middle">1.</td>
-                  <td class="requst-border-th text-center vertical-middle"><img src="assets/images/product/product_1.png" width="70%"></td>
-                  <td class="requst-border-th px-3 text-center vertical-middle">RE-01-001</td>
-                  <td class="requst-border-th px-3 text-center vertical-middle">สีทาถนนไปสะท้อนแสง JOTUN สีดำ</td>
-                  <td class="requst-border-th px-3 text-center vertical-middle">50</td>
-                  <td class="requst-border-th text-center vertical-middle">ชิ้น</td>
-                  <td class="requst-border-th text-center vertical-middle">100</td>
-                  <td class="requst-border-th px-3 text-center vertical-middle">5,000</td>
-                  <td class="requst-border-th px-3 text-center vertical-middle text-green" style="border-right: none;">NEW REQUSET</td>
-                  <td class="requst-border-th vertical-middle" style="border-left: none;">
-                      <button type="button" class="requst-btn-quantity">
-                          <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                      </button> 
+                  <td class="inbox-border-table text-center vertical-middle">1.</td>
+                  <td class="inbox-border-table text-center vertical-middle"><img src="assets/images/product/product_1.png" width="70%"></td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle">RE-01-001</td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle">สีทาถนนไปสะท้อนแสง JOTUN สีดำ</td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle">50</td>
+                  <td class="inbox-border-table text-center vertical-middle">ชิ้น</td>
+                  <td class="inbox-border-table text-center vertical-middle">100</td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle">5,000</td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle text-green" style="border-right: none;">NEW REQUSET</td>
+                  <td class="inbox-border-table vertical-middle" style="border-left: none;">
+                      <button class="button inbox-quantity-minus"><i class="fa fa-minus"></i></button> 
                   </td>
                 </tr>
                 <tr>
-                  <td class="requst-border-th text-center vertical-middle">2.</td>
-                  <td class="requst-border-th text-center vertical-middle"><img src="assets/images/img-300.jpg" width="70%"></td>
-                  <td class="requst-border-th px-3 text-center vertical-middle">RE-01-002</td>
-                  <td class="requst-border-th px-3 text-center vertical-middle">น้ำยาลอกสี</td>
-                  <td class="requst-border-th px-3 text-center vertical-middle">50</td>
-                  <td class="requst-border-th text-center vertical-middle">ชิ้น</td>
-                  <td class="requst-border-th text-center vertical-middle">100</td>
-                  <td class="requst-border-th px-3 text-center vertical-middle">5,000</td>
-                  <td class="requst-border-th px-3 text-center vertical-middle text-green" style="border-right: none;">NEW REQUSET</td>
-                  <td class="requst-border-th vertical-middle" style="border-left: none;position: relative;">
-                      <button type="button" class="requst-btn-quantity">
-                          <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                      </button> 
+                  <td class="inbox-border-table text-center vertical-middle">2.</td>
+                  <td class="inbox-border-table text-center vertical-middle"><img src="assets/images/img-300.jpg" width="70%"></td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle">RE-01-002</td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle">น้ำยาลอกสี</td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle">50</td>
+                  <td class="inbox-border-table text-center vertical-middle">ชิ้น</td>
+                  <td class="inbox-border-table text-center vertical-middle">100</td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle">5,000</td>
+                  <td class="inbox-border-table px-3 text-center vertical-middle text-green" style="border-right: none;">NEW REQUSET</td>
+                  <td class="inbox-border-table vertical-middle" style="border-left: none;position: relative;">
+                      <button class="button inbox-quantity-minus"><i class="fa fa-minus"></i></button>
                   </td>
+                </tr>
+                <tr>
+                  <td class="inbox-border-table request-total text-darkblue" colspan="10">Total 20,000 Bath</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
 
-
-        
-
-
-
-        <div class="row px-5">
-          <div class="text-center mb-4">
-
-                        <button  type="submit" class="btn btn-default btn-primary">
-                          <font class="text-white sumbit-text">
-                            ยืนยันข้อมูล
-                          </font>
-                        </button>
-
-                        <button  type="submit" class="btn btn-default btn-ghost">
-                          <font class="sumbit-text">
-                            ยกเลิก
-                          </font>
-                        </button>
-          </div>
+        <div class="row">
+            <div class="col-sm-12 mt-4 mb-5">
+              <div class="text-center">
+                <button type="button" class="btn btn-main request-bnt-size">ยืนยันข้อมูล</button>
+                <button type="button" class="btn btn-ghost request-bnt-size">กลับไปเลือกสินค้าต่อ</button>
+              </div>
+            </div>
         </div>
 
+     </div>
 
+
+<!-- ============================ #END content ============================================= -->
     <?php include_once('inc/footer.php'); ?>
 
   </body>
