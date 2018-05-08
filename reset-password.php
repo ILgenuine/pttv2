@@ -7,72 +7,75 @@
 
     <?php include_once('inc/navbar.php'); ?>
 
-    <div class="col-12">
 
-      <div class="header-img-frame" style="height:400px;">
-        <div style="background: url(assets/images/bg/header-bg.jpg) fixed;z-index:-1;position:absolute;top:0;height:400px;width:100%;">
-        </div>
-          <!-- <img src="assets/images/bg/header-bg.jpg" class="img-responsive" style="width:100%;height:450px;z-index:-1;"/> -->
+              <div class="banner mx-5">
 
-          <div class="redtext">
-                <h1 class="redtext-title text-center pagination-centered">SP PTTGC</h1>
-          </div>
+                    <div style="background: url(assets/images/bg/header-bg.jpg) fixed;height:400px;width:100%;">
+                    </div>
 
-          <div class="redtext-2 redtext-underline">
-          </div>
-
-          <div class="whitetext">
-            <div class="section-content">
-              <h3 class="redtext-title text-center pagination-centered">PARTNERSHIP OF CONSUMABLE CONTRACT</h3>
-            </div>
-          </div>
-      </div>
-    </div>
+                    <div class="banner-title">
+                        <div class="banner-text-frame">
+                          <font class="banner-title-text">SP PTTGC</font>
+                        </div>
+                        <div class="banner-text-frame">
+                          <hr class="banner-title-hr">
+                        </div>
+                    </div>
+                    <div class="banner-title-2">
+                        <div class="banner-text-frame-2">
+                          <font class="banner-title-text-2">PARTNERSHIP OF CONSUMABLE CONTRACT</font>
+                        </div>
+                    </div>
 
 
-    <div class="container">
-      <div class="login-container-card login-form">
-
-          <div class="text-center"><font class="title">RESET PASSWORD</font></div>
-
-          <div class="col-sm-12">
-              <div class="input-group width100">
-                <label class="text-grey reset-label-set">รหัสผ่านเก่า</label>
-                <input type="Password" class="form-control" placeholder="รหัสผ่านเก่า" aria-describedby="basic-addon1">
-              </div>
-          </div>
-
-          <div class="col-sm-12">
-              <div class="input-group width100">
-                <label  class="text-grey reset-label-set">รหัสผ่านใหม่</label>
-                <input type="Password" class="form-control" placeholder="รหัสผ่านใหม่" aria-describedby="basic-addon2">
-              </div>
-          </div>
+                    <div class="banner-footer">
+                      <div class="d-flex py-2">
+                        <div class="mr-auto pl-5">
+                          <i class="fa fa-th-large pr-4"></i>
+                          <font class="text-white">SUMMARY REQUEST STATUS</font>
+                        </div>
+                        <div class="ml-auto pr-5">
+                          <a href="#"><span class="flaticon-letter text-white"></span></a>
+                          <a href="#"><span class="flaticon-download-button text-white"></span></a>
+                          <a href="#"><span class="flaticon-printing-tool text-white"></span></a>
+                        </div>
+                      </div>
+                    </div>
 
 
-          <div class="col-sm-12">
-              <div class="input-group width100">
-                <label  class="text-grey reset-label-set">ยืนยันรหัสผ่านใหม่</label>
-                <input type="Password" class="form-control" placeholder="ยืนยันรหัสผ่านใหม่" aria-describedby="basic-addon3">
-              </div>
-          </div>
-           
-
-          
-           <!-- ============= SUBMIT LOGIN ======================== -->
-            <div class="col-sm-12 padding-x-0">
-              <div class="input-group login-position-bnt">
-                <button  type="submit" class="btn btn-default btn-primary login-bntsize-300px">
-                ยืนยัน
-              </button>
-            </div>
-          </div>
+                </div>
 
 
-        
 
-       </div>
-    </div>
+
+
+                <div class="container">
+                  <div class="row py-4 px-5">
+                    <div class="col-sm-12 mb-2">
+                      <div class="text-center text-darkblue"><h2>RESET PASSWORD</h2></div>
+                    </div>
+
+
+                    <div class="col-sm-7 mb-3" style="margin: auto;">
+                      <input type="password" class="form-control" placeholder="รหัสผ่านเก่า">
+                    </div>
+
+                    <div class="col-sm-7 mb-3" style="margin: auto;">
+                      <input type="password" class="form-control" placeholder="รหัสผ่านใหม่">
+                    </div>
+
+                    <div class="col-sm-7 mb-3" style="margin: auto;">
+                      <input type="password" class="form-control" placeholder="ยืนยืนรหัสผ่านใหม่">
+                    </div>
+
+                    <div class="col-sm-12 mb-3">
+                      <div class="text-center">
+                        <button type="button" class="btn btn-main" style="width: 175px;">ยืนยัน</button>
+                      </div>
+                    </div>  
+
+                  </div>
+                </div>
 
 
 
