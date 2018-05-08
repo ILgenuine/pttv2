@@ -184,6 +184,9 @@
                 <span class="flaticon-cancel icon-darkblue nav-icon inbox-bnt-closd"></span>
               </button>
             </div>
+
+
+
             <div class="modal-body">
               <div class="row">
                   <!-- left chat-->
@@ -228,8 +231,39 @@
                           </div>
                     </div>
                   </div>
+                  <!-- Right chat-->
+                  <div class="col-sm-12 pull-right">
+                    <div class="pull-right">
+                      <font class="text-grey">Web Master 30/03/2561 09.10 น.</font><br>
+                      <div class="pull-right">
+                        <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
+                      </div>
+                      <div class="pull-right right-chat-mt">
+                        <font class="right-chat-bubble">
+                          คำตอบ
+                        </font>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- left chat-->
+                  <div class="col-sm-12">
+                    <div class="pull-left">
+                        <font class="text-grey">มานะใจดี 30/03/2561 09.15 น.</font><br>
+                          <div class="pull-left">
+                            <img src="assets/images/footer/sp.jpg" class="footer-sp" style="position:relative;top:5px">
+                          </div>
+                          <div class="pull-left left-chat-mt">
+                            <font class="left-chat-bubble">
+                              สอบถาม
+                            </font>
+                          </div>
+                    </div>
+                  </div>
               </div>
             </div>
+
+
+
             <div class="modal-footer" style="padding-top: 35px;">
                 <div class="col-sm-10">
                   <div class="inbox-footer-left-30px">

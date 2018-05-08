@@ -42,6 +42,10 @@
 					border:2px solid #CCCCCC;
 					border-radius: 4px 4px 4px 4px !important;
 			}
+			.row {
+			    margin-right: 0px;
+			    margin-left: 0px;
+			}
 
 			.icon-darkblue{
 				color:#2E345C;
@@ -155,7 +159,8 @@
 			}
 
 			.modal-body {
-			    max-height: 700px !important;
+			    height: 500px;
+			    max-height: 500px !important;
 			    overflow-y: scroll;
 			    margin: 0px 60px 0px 60px;
 			    border: 1px solid #ddd;
@@ -747,7 +752,7 @@
 	    padding: 5px 15px;
 	    margin-top: 15px;
 	    font-size: 18px;
-	    width: 137px;
+	    width: 150px;
 	    text-align: center;
 	}
 	.footer-sp {
@@ -784,6 +789,7 @@
 	.right-chat-bubble {
 	    padding-top: 10px;
 	    padding-bottom: 25px;
+	    padding-left: 15px;
 	}
 	.pull-right {
 	    float: right!important;
@@ -793,7 +799,7 @@
 	}
 	.inbox-icon-size:before {
 		color: #999999!important;
-		font-size: 40px!important;
+		font-size: 30px!important;
 	}
 	.inbox-quantity-minus {
 	    font-size: 12px;
