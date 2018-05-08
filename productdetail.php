@@ -219,7 +219,6 @@
                       <div class="col-12 mt-4">
                         <button type="button" class="btn btn-main p-4"><font class="producdetail-btn">เพิ่มสินค้าลงในตะกร้า</font></button>
                         <button type="button" class="btn btn-ghost p-4"><font class="producdetail-btn">กลับไปเลือกสินค้าต่อ</font></button>
-
                       </div>
                     </div>
                   </div>

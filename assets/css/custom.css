@@ -757,9 +757,13 @@
 	.left-chat-mt {
 	    background-color: #DCF3FE;
 	    padding-left: 15px;
+			padding-right: 15px;
 	    width: 50%;
 	    margin-left: 30px;
 	    margin-top: 15px;
+			min-width: 400px;
+			padding-top: 10px;
+			padding-bottom: 10px;
 	}
 	.left-chat-bubble {
 	    padding-top: 10px;
@@ -767,11 +771,15 @@
 	    padding-right: 30px;
 	}
 	.right-chat-mt {
-	    background-color: #EEE;
-	    padding-right: 15px;
-	    width: 50%;
-	    margin-right: 30px;
-	    margin-top: 5px;
+		background-color: #EEE;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 50%;
+		margin-right: 30px;
+		margin-top: 15px;
+		min-width: 400px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 	.right-chat-bubble {
 	    padding-top: 10px;
@@ -894,4 +902,51 @@
 
 /*-------------------------
 -------- END PRODUCTDETAIL ------
+----------------------------*/
+
+
+
+/*-------------------------
+-------- EDIT PROFILE -----------
+----------------------------*/
+
+	.profile-img-frame{
+		background-color: white;
+		border:2px solid #ccc;
+		border-radius: 8px;
+		height:350px;
+		width:350px;
+		position:relative;
+		overflow: hidden;
+	}
+
+
+	.btn-file input[type=file] {
+			position: absolute;
+			top: 0;
+			right: 10px;
+			width: 40px;
+			height: 40px;
+			font-size: 100px;
+			text-align: right;
+			opacity:0;
+			outline: none;
+			cursor: inherit;
+			display: block;
+	}
+
+	.edit{
+		position:absolute;
+		bottom:0;
+		right:0;
+	}
+
+	.profile-btn{
+		padding-top:10px;
+		padding-bottom: 10px;
+		width:180px;
+	}
+
+/*-------------------------
+------ END EDIT PROFILE -----------
 ----------------------------*/
