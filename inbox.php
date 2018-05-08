@@ -8,21 +8,25 @@
     <?php include_once('inc/navbar.php'); ?>
 
 <!-- ===================================== TABLE ==================================== -->
-    <div class="container-fluid">
-      <div class="row py-4 px-3">
-        <div class="col-md-7">
-          <div><b class="text-darkblue">Inbox</b></div>
-        </div>
-        <div class="col-md-5">
-          <div>
-            <input placeholder="ค้นหา" type="text" class="form-control search-form text-center">
-            <button class="search-box">
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
-          </div>
-        </div>
-
-
+<div class="container-fluid">
+  <div class="row py-4 px-3">
+    <div class="col-md-6">
+      <div><b class="text-darkblue">Inbox</b></div>
+    </div>
+    <div class="col-md-4">
+      <div>
+        <input placeholder="ค้นหา" type="text" class="form-control search-form text-center">
+        <button class="search-box">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="text-right">
+        <button class="button plus-btn"><i class="fa fa-plus"></i></button>
+        <b class="text-grey"> เพิ่มหัวข้อคำถาม</b>
+      </div>
+    </div>
 
 
 
