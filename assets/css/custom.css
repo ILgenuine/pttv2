@@ -115,9 +115,6 @@
 				padding:10px;
 			}
 
-			.navigation{
-				font-weight: 700;
-			}
 
 			.navigation:hover{
 				text-decoration: none;
@@ -216,23 +213,28 @@
 			.bnt-pagination-next:hover {
 	    		background-color: #fff!important;
 			}
+
 			.bnt-pagination-next {
 				border: 1px solid transparent!important;
 	    		margin-left: 15px;
 	    		padding-top: 11px;
 			}
+
 			.page-link {
 				border: 1px solid #cccccc;
 			    border-radius: 5px;
 			    width: 40px!important;
     			text-align: center;
 			}
+
 			.page-link:hover {
 			    background-color: #dcf3fe;
 			}
-			.letter-spacing {
-				letter-spacing: 1px;
+
+			.hover-dis:hover{
+				cursor: pointer;
 			}
+
 
 			/*-------------- NAVBAR  ---------------*/
 
@@ -518,6 +520,30 @@
 		width:100%;
 		border:2px solid  #CCC;
 		border-bottom: none;
+		position:relative;
+	}
+
+	.side-nav .active{
+		color:#52adda;
+	}
+
+	.dropdown-menu .active-sub{
+		color:#52adda;
+	}
+
+	.side-nav-dropdown{
+		position:absolute;
+		top:-90%;
+		right:0;
+	}
+
+	.side-nav-dropdown .dropdown-menu{
+		border:2px solid  #CCC;
+		border-radius: 0px;
+		max-width: 250px;
+		max-height: 280px;
+		overflow-y:auto;
+		overflow-x:auto;
 	}
 
 	.side-nav-menu:hover{
@@ -547,11 +573,95 @@
 		color:white;
 	}
 
+	.side-nav-dropdown-menu{
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
 
+	.side-nav-dropdown-menu:hover{
+		background-color:#dcf2fd;
+	}
+
+	.card-header{
+		padding:0;
+		margin:0;
+		width:100%;
+		position:relative;
+		text-align: center;
+	}
+
+
+	.card-status-request{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		color:white;
+		background-color:#ec3340;
+	}
+
+	.card-status-shelf{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		color:white;
+		background-color:#33b4ed;
+	}
+
+	.card-img-top{
+		background-color: transparent;
+	}
+
+	.card-overlay{
+		transition: all 1s;
+		opacity: 0;
+		position: absolute;
+		top:0;
+		width:100%;
+		height:100%;
+		background-color: whitesmoke;
+		display:table-cell;
+		vertical-align:middle;
+	}
+
+	.card-header:hover .card-overlay{
+		opacity:0.5;
+	}
+
+	.overlay-btn{
+		margin-top:50%
+	}
+
+	.card-body{
+		text-align: center;
+	}
+
+	.product-number{
+		font-size: 22px;
+	}
+
+	.product-description{
+
+	}
+
+	.card-text{
+		min-height: 30px;
+		max-height:60px;
+		overflow-y: hidden;
+		width:100%;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
+	.card-body{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
 
 /*-------------------------*/
 /*----  END DASHBOARD -----*/
 /*-------------------------*/
+
+
+
+
 
 
 
@@ -578,6 +688,10 @@
 /*-------------------------*/
 
 
+
+
+
+
 /*--------------------------
 ---------- Inbox -----------
 ----------------------------*/
@@ -587,7 +701,7 @@
 	}
 	.modal-dialog {
 	    width: 65%;
-	    max-width: 100%; 
+	    max-width: 100%;
 	    margin: 1.75rem auto;
 	}
 	.inbox-border-chat {

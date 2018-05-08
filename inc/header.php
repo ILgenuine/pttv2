@@ -8,11 +8,15 @@
     <meta name="robots" content="index, follow, all">
     <meta name="author" content="NockDown">
 
+
+
     <link rel="apple-touch-icon" sizes="76x76" href="assets/images/logo/ptt-icon.png">
     <link rel="icon" type="image/png" href="assets/images/logo/ptt-icon.png">
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- Bootstrap CSS -->
