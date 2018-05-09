@@ -209,8 +209,8 @@
                   <td class="inbox-border-table text-center vertical-middle">ชิ้น</td>
                   <td class="inbox-border-table text-center vertical-middle">100</td>
                   <td class="inbox-border-table px-3 text-center vertical-middle">5,000</td>
-                  <td class="inbox-border-table px-3 text-center vertical-middle text-green" style="border-right: none;">NEW REQUSET</td>
-                  <td class="inbox-border-table vertical-middle" style="border-left: none;">
+                  <td class="inbox-border-table px-3 text-center vertical-middle text-green">NEW REQUSET</td>
+                  <td class="inbox-border-table vertical-middle">
                       <button class="button inbox-quantity-minus"><i class="fa fa-minus"></i></button>
                   </td>
                 </tr>
@@ -223,8 +223,8 @@
                   <td class="inbox-border-table text-center vertical-middle">ชิ้น</td>
                   <td class="inbox-border-table text-center vertical-middle">100</td>
                   <td class="inbox-border-table px-3 text-center vertical-middle">5,000</td>
-                  <td class="inbox-border-table px-3 text-center vertical-middle text-green" style="border-right: none;">NEW REQUSET</td>
-                  <td class="inbox-border-table vertical-middle" style="border-left: none;position: relative;">
+                  <td class="inbox-border-table px-3 text-center vertical-middle text-green">NEW REQUSET</td>
+                  <td class="inbox-border-table vertical-middle">
                       <button class="button inbox-quantity-minus"><i class="fa fa-minus"></i></button>
                   </td>
                 </tr>
