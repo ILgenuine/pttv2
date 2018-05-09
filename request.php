@@ -164,13 +164,13 @@
 
 
 <!-- =================== Table ====================================== -->
-        <div class="row px-4 mb-4">
-          <div class="col-sm-9">
+        <div class="row px-4 mb-5">
+          <div class="col-sm-10">
             <div class="ml-1">
-              <button class="button plus-btn"><i class="fa fa-plus"></i></button>
+              <button class="button plus-btn request-plus-btn-set"><i class="fa fa-plus"></i></button>
             </div>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-2">
             <div class="row text-right pr-2">
               <div class="col-3"><a class="flaticon-copy-content inbox-icon-size"></a></div>
               <div class="col-3"><a class="flaticon-letter inbox-icon-size"></a></div>

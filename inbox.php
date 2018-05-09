@@ -23,7 +23,7 @@
     </div>
     <div class="col-md-2">
       <div class="text-right">
-        <button class="button plus-btn"><i class="fa fa-plus"></i></button>
+        <button class="button plus-btn request-plus-btn-set mr-3"><i class="fa fa-plus"></i></button>
         <b class="text-grey"> เพิ่มหัวข้อคำถาม</b>
       </div>
     </div>
@@ -39,106 +39,106 @@
             <table class="width-100 ptt-table">
               <thead >
                 <tr>
-                  <th class="text-center" style="width: 5%;">No.</th>
-                  <th class="text-center" style="width: 50%;">Topic</th>
-                  <th class="text-center" style="width: 9%;">Message From</th>
-                  <th class="text-center" style="width: 9%;">Message Date ▼</th>
-                  <th class="text-center" style="width: 9%;">Message Reply</th>
-                  <th class="text-center" style="width: 9%;">Message Date ▼</th>
-                  <th class="text-center" style="width: 9%;"></th>
+                  <th class="text-center pr-5" style="width: 7%;">No.</th>
+                  <th class="text-center" style="width: 40%;">Topic</th>
+                  <th class="text-center" style="width: 11.5%;">Message From</th>
+                  <th class="text-center" style="width: 11.5%;">Message Date ▼</th>
+                  <th class="text-center" style="width: 11.5%;">Message Reply</th>
+                  <th class="text-center" style="width: 11.5%;">Message Date ▼</th>
+                  <th class="text-center" style="width: 7%;"></th>
                 </tr>
               </thead>
 
               <tbody>
                 <tr>
-                  <td class="text-center text-grey">1</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม AA</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
-                  <td class="text-center text-grey">มานี ดีใจ</td>
-                  <td class="text-center text-grey">01/01/2561 10.00</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-center text-grey pr-5">1</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม AA</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานี</font> <font class="pl-1">ดีใจ</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">10.00</font></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
                 <tr>
-                  <td class="text-center text-grey">2</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม BB</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
+                  <td class="text-center text-grey pr-5">2</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม BB</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
                   <td class="text-center text-grey">-</td>
                   <td class="text-center text-grey">-</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
                 <tr>
-                  <td class="text-center text-grey">3</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม CC</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
+                  <td class="text-center text-grey pr-5">3</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม CC</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
                   <td class="text-center text-grey">-</td>
                   <td class="text-center text-grey">-</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
                 <tr>
-                  <td class="text-center text-grey">4</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม DD</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
+                  <td class="text-center text-grey pr-5">4</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม DD</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
                   <td class="text-center text-grey">-</td>
                   <td class="text-center text-grey">-</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
                 <tr>
-                  <td class="text-center text-grey">5</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม EE</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
+                  <td class="text-center text-grey pr-5">5</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม EE</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
                   <td class="text-center text-grey">-</td>
                   <td class="text-center text-grey">-</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
                 <tr>
-                  <td class="text-center text-grey">6</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม FF</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
+                  <td class="text-center text-grey pr-5">6</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม FF</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
                   <td class="text-center text-grey">-</td>
                   <td class="text-center text-grey">-</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
                 <tr>
-                  <td class="text-center text-grey">7</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม GG</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
+                  <td class="text-center text-grey pr-5">7</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม GG</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
                   <td class="text-center text-grey">-</td>
                   <td class="text-center text-grey">-</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
                 <tr>
-                  <td class="text-center text-grey">8</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม HH</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
+                  <td class="text-center text-grey pr-5">8</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม HH</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
                   <td class="text-center text-grey">-</td>
                   <td class="text-center text-grey">-</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
                 <tr>
-                  <td class="text-center text-grey">9</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม II</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
+                  <td class="text-center text-grey pr-5">9</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม II</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
                   <td class="text-center text-grey">-</td>
                   <td class="text-center text-grey">-</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
                 <tr>
-                  <td class="text-center text-grey">10</td>
-                  <td class="text-left text-darkblue">หัวข้อคำถาม JJ</td>
-                  <td class="text-center text-grey">มานะ ใจดี</td>
-                  <td class="text-center text-grey">01/01/2561 09.00</td>
+                  <td class="text-center text-grey pr-5">10</td>
+                  <td class="text-left text-darkblue"><b>หัวข้อคำถาม JJ</b></td>
+                  <td class="text-center text-grey"><font class="pr-1">มานะ</font> <font class="pl-1">ใจดี</font></td>
+                  <td class="text-center text-grey"><font class="pr-1">01/01/2561</font> <font class="pl-1">09.00</font></td>
                   <td class="text-center text-grey">-</td>
                   <td class="text-center text-grey">-</td>
-                  <td class="text-center"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
+                  <td class="text-right pr-4"><a href="#" class="fa fa-reply text-grey" aria-hidden="true" data-toggle="modal" data-target="#exampleModal"></a></td>
                 </tr>
               </tbody>
             </table>

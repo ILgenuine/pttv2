@@ -23,7 +23,7 @@
             </form>
         </div>
 
-        <div class="col-md-8 col-12">
+        <div class="col-md-9 col-12">
             <div class="form-group" style="width: 40%;">
               <select class="form-control" id="sel1">
                 <option>Type Reqyest</option>
@@ -33,8 +33,21 @@
               </select>
             </div>
         </div>
-        <div class="col-md-2 col-12"><div class="text-right"><button class="button plus-btn"><i class="fa fa-plus"></i></button><font class="ml-3">Keep On Shelf</font></div></div>
-        <div class="col-md-2 col-12"><div class="text-right"><button class="button plus-btn"><i class="fa fa-plus"></i></button><font class="ml-3">As Request</font></div></div>
+
+
+        <div class="col-md col-12">
+          <div class="text-right">
+            <button class="button plus-btn request-plus-btn-set"><i class="fa fa-plus"></i></button>
+            <font class="ml-3">Keep On Shelf</font>
+          </div>
+        </div>
+
+        <div class="col-md col-12">
+          <div class="text-right">
+            <button class="button plus-btn request-plus-btn-set"><i class="fa fa-plus"></i></button>
+            <font class="ml-3">As Request</font>
+          </div>
+        </div>
         <!-- ====================================== Table ==================================== -->
 
         <div class="col-sm-12 mt-4">
