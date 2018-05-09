@@ -146,20 +146,17 @@
                         <option>test4</option>
                       </select>
                     </div>
-
-
-
-
-                    <div class="col-sm-12">
-                      <div class="row">
-                        <div class="col-sm-2 mt-4 mb-4 text-grey">
-                          Head Note :
-                        </div>
-                        <div class="col-sm-10 mt-4 mb-4">
-                          <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="...">
-                        </div>
-                      </div>
+                    <div class="col-sm-6 mt-4">
                     </div>
+
+
+                    <div class="col-sm-2 mt-4 mb-4 text-grey">
+                      Head Note :
+                    </div>
+                    <div class="col-sm-10 mt-4 mb-4">
+                      <input type="text" class="form-control text-grey" style="margin:0px;text-align:left;" aria-label="...">
+                    </div>
+
               </div>
            </div>
 

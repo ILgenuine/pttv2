@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-light nav-border">
 
       <div style="text-align:center;" data-aos="fade-left" data-aos-dulation="700">
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="dashboard.php">
           <div>
           <img class="logo" src="assets/images/logo/logo.png" alt="">
           </div>

@@ -159,9 +159,8 @@
 			}
 
 			.modal-body {
-			    height: 500px;
-			    max-height: 500px !important;
-			    overflow-y: scroll;
+			    max-height: 550px !important;
+			    overflow-y: auto;
 			    margin: 0px 60px 0px 60px;
 			    border: 1px solid #ddd;
 			}
@@ -243,6 +242,8 @@
 			.grey-box{
 				background-color: #f6fbff;
 			}
+
+
 
 			/*-------------- NAVBAR  ---------------*/
 
@@ -731,6 +732,8 @@
 	.fileContainer {
 	    overflow: hidden;
 	    position: relative;
+			width:100%;
+
 	}
 
 	.fileContainer [type=file] {
@@ -745,7 +748,7 @@
 	    top: 0;
 	}
 	.inbox-bnt-file {
-		color: #00A1E9;
+			color: #00A1E9;
 	    background-color: white;
 	    border: 1px solid;
 	    border-color: #00A1E9!important;
@@ -760,6 +763,7 @@
 	    width: 60px;
 	}
 	.left-chat-mt {
+			position:relative;
 	    background-color: #DCF3FE;
 	    padding-left: 15px;
 			padding-right: 15px;
@@ -770,12 +774,27 @@
 			padding-top: 10px;
 			padding-bottom: 10px;
 	}
+
 	.left-chat-bubble {
 	    padding-top: 10px;
 	    padding-bottom: 25px;
 	    padding-right: 30px;
 	}
+
+	.left-chat-bubble::before {
+			position:absolute;
+			top:5px;
+			left:-10px;
+			content: "";
+			width: 0;
+		  height: 0;
+		  border-top: 10px solid transparent;
+		  border-bottom: 10px solid transparent;
+		  border-right:15px solid #DCF3FE;
+	}
+
 	.right-chat-mt {
+		position:relative;
 		background-color: #EEE;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -786,21 +805,38 @@
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+
 	.right-chat-bubble {
 	    padding-top: 10px;
 	    padding-bottom: 25px;
 	    padding-left: 15px;
 	}
+
+	.right-chat-bubble::before {
+			position:absolute;
+			top:5px;
+			right:-10px;
+			content: "";
+			width: 0;
+			height: 0;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent;
+			border-left:15px solid #EEE;
+	}
+
 	.pull-right {
 	    float: right!important;
 	}
+
 	.pull-left {
 	    float: left!important;
 	}
+
 	.inbox-icon-size:before {
 		color: #999999!important;
 		font-size: 30px!important;
 	}
+
 	.inbox-quantity-minus {
 	    font-size: 12px;
 	    color: white;
@@ -811,15 +847,23 @@
 	    border: none;
 	    cursor: pointer;
 	}
+
 	.inbox-quantity-minus:hover {
 		box-shadow: 1px 1px 1px 1px #797575;
 	}
+
 	.vertical-middle {
 		vertical-align: middle!important;
 	}
+
 	.inbox-border-table {
 		border: 1px solid #cccccc;
 	}
+
+	.modal-btn{
+		width:100%;
+	}
+
 /*-------------------------*/
 /*-----  END INBOX -------*/
 /*-------------------------*/
