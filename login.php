@@ -81,7 +81,7 @@
 
                     <div class="col-sm-12 mb-2">
                       <div class="text-center">
-                        <button type="button" class="btn btn-main" style="width: 175px;">LOGIN</button>
+                        <button type="button" class="btn btn-main"  style="width: 175px;" onclick="window.location.href='dashboard.php';">LOGIN</button>
                       </div>
                     </div>
 

@@ -34,7 +34,7 @@
                       <div class="dropdown-menu" aria-labelledby="dropdownMenu" style="text-align:left;">
                           <button class="dropdown-item py-2 text-grey" type="button" onclick="window.location.href='editprofile.php';">PROFILE</button>
                           <button class="dropdown-item py-2 text-grey" type="button" onclick="window.location.href='reset-password.php';">RESET PASSWORD</button>
-                          <button class="dropdown-item py-2 text-grey" type="button">LOGOUT</button>
+                          <button class="dropdown-item py-2 text-grey" type="button" onclick="window.location.href='login.php';">LOGOUT</button>
                       </div>
                   </div>
                 </li>

@@ -164,13 +164,13 @@
 
 
 <!-- =================== Table ====================================== -->
-        <div class="row px-4 mb-4">
-          <div class="col-sm-9">
+        <div class="row px-4 mb-5">
+          <div class="col-sm-10">
             <div class="ml-1">
-              <button class="button plus-btn"><i class="fa fa-plus"></i></button>
+              <button class="button plus-btn request-plus-btn-set"><i class="fa fa-plus"></i></button>
             </div>
           </div>
-          <div class="col-sm-3">
+          <div class="col-sm-2">
             <div class="row text-right pr-2">
               <div class="col-3"><a class="flaticon-copy-content inbox-icon-size"></a></div>
               <div class="col-3"><a class="flaticon-letter inbox-icon-size"></a></div>
@@ -206,8 +206,8 @@
                   <td class="inbox-border-table text-center vertical-middle">ชิ้น</td>
                   <td class="inbox-border-table text-center vertical-middle">100</td>
                   <td class="inbox-border-table px-3 text-center vertical-middle">5,000</td>
-                  <td class="inbox-border-table px-3 text-center vertical-middle text-green" style="border-right: none;">NEW REQUSET</td>
-                  <td class="inbox-border-table vertical-middle" style="border-left: none;">
+                  <td class="inbox-border-table px-3 text-center vertical-middle text-green">NEW REQUSET</td>
+                  <td class="inbox-border-table vertical-middle">
                       <button class="button inbox-quantity-minus"><i class="fa fa-minus"></i></button>
                   </td>
                 </tr>
@@ -220,8 +220,8 @@
                   <td class="inbox-border-table text-center vertical-middle">ชิ้น</td>
                   <td class="inbox-border-table text-center vertical-middle">100</td>
                   <td class="inbox-border-table px-3 text-center vertical-middle">5,000</td>
-                  <td class="inbox-border-table px-3 text-center vertical-middle text-green" style="border-right: none;">NEW REQUSET</td>
-                  <td class="inbox-border-table vertical-middle" style="border-left: none;position: relative;">
+                  <td class="inbox-border-table px-3 text-center vertical-middle text-green">NEW REQUSET</td>
+                  <td class="inbox-border-table vertical-middle">
                       <button class="button inbox-quantity-minus"><i class="fa fa-minus"></i></button>
                   </td>
                 </tr>
