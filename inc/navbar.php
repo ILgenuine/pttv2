@@ -65,19 +65,19 @@
 
 
                   <li class="nav-item ml-3 mr-5">
-                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com//ptt/dashboard.php" || $actual_link == "http://workbythai-commerce.com//ptt/dashboard.php") echo "active-menu"; else ""; ?>" href="dashboard.php">DASHBOARD</a>
+                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com//pttv2/dashboard.php" || $actual_link == "http://workbythai-commerce.com//pttv2/dashboard.php") echo "active-menu"; else ""; ?>" href="dashboard.php">DASHBOARD</a>
                   </li>
                   <li class="nav-item mr-5">
-                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com/ptt/product.php" || $actual_link == "http://workbythai-commerce.com/ptt/product.php") echo "active-menu"; else ""; ?>" href="product.php">PRODUCT</a>
+                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com/pttv2/product.php" || $actual_link == "http://workbythai-commerce.com/pttv2/product.php") echo "active-menu"; else ""; ?>" href="product.php">PRODUCT</a>
                   </li>
                   <li class="nav-item mr-5">
-                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com/ptt/request.php" || $actual_link == "http://workbythai-commerce.com/ptt/request.php") echo "active-menu"; else ""; ?>" href="request.php">REQUEST ENTRY</a>
+                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com/pttv2/request.php" || $actual_link == "http://workbythai-commerce.com/pttv2/request.php") echo "active-menu"; else ""; ?>" href="request.php">REQUEST ENTRY</a>
                   </li>
                   <li class="nav-item mr-5">
-                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com/ptt/report.php" || $actual_link == "http://workbythai-commerce.com/ptt/report.php") echo "active-menu"; else ""; ?>" href="report.php">REPORT</a>
+                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com/pttv2/report.php" || $actual_link == "http://workbythai-commerce.com/pttv2/report.php") echo "active-menu"; else ""; ?>" href="report.php">REPORT</a>
                   </li>
                   <li class="nav-item mr-5">
-                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com/ptt/contact.php" || $actual_link == "http://workbythai-commerce.com/ptt/contact.php") echo "active-menu"; else ""; ?>" href="contact.php">CONTACT US</a>
+                      <a class="text-black nav-link <?php if($actual_link == "http://workbythai-commerce.com/pttv2/contact.php" || $actual_link == "http://workbythai-commerce.com/pttv2/contact.php") echo "active-menu"; else ""; ?>" href="contact.php">CONTACT US</a>
                   </li>
 
 

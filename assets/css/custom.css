@@ -33,6 +33,24 @@
 /*------  Structure -------*/
 /*-------------------------*/
 
+.gallery-frame{
+height:800px;
+}
+
+
+
+.r-img-frame{
+height:50%;
+}
+
+
+.l-img-frame{
+height:100%;
+background-color: green;
+}
+
+
+
 			body{
 				font-family: 'kanitlight';
 				font-size: 20px;
@@ -76,6 +94,10 @@
 			.text-red {
 				color: #fc361d;
 			}
+
+				.active-menu{
+					color:#020091;
+				}
 
 			.search-box {
 			    position: absolute;
@@ -375,6 +397,11 @@
 /*-------------------------*/
 /*------  DASHBOARD -------*/
 /*-------------------------*/
+
+	.slide{
+		height:540px;
+		overflow: hidden;
+	}
 
 
 	.banner{
